@@ -11,6 +11,10 @@ bashrc[2]="alias l='ls -CF'"
 bashrc[3]="alias apt-get='sudo apt-get'"
 # dpkg
 bashrc[4]="alias dpkgi='sudo dpkg -i'"
+# find
+bashrc[5]="alias find='sudo find'"
+bashrc[6]="alias findd='sudo find -type d'"
+bashrc[7]="alias findf='sudo find -type f'"
 
 # Add to bashrc
 lineAdded=0

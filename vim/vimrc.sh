@@ -18,6 +18,7 @@ fi
 
 echo
 
+# Check if vimrc is writeable
 test -w ${filepath}
 if [ $? -ne 0 ]; then
     echo "${filepath} not writeable. Exit script"

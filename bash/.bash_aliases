@@ -30,3 +30,6 @@ alias findf='sudo find -type f'
 alias df='df -h'
 alias free='free -hm'
 alias fsize='ls -sh'
+
+# Docker
+alias docker='sudo docker'

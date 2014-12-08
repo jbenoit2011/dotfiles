@@ -33,3 +33,6 @@ alias fsize='ls -sh'
 
 # Docker
 alias docker='sudo docker'
+
+# Composer
+alias composer='composer.phar'

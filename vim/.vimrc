@@ -53,7 +53,6 @@ augroup END
 " Enable syntax highlighting
 syntax on
 
-colorscheme solarized
 set background=dark
 
 " Set extra options when running in GUI mode
@@ -229,3 +228,13 @@ Plugin 'scrooloose/syntastic'
 Plugin 'scrooloose/nerdcommenter'
 Plugin 'powerman/vim-plugin-viewdoc'
 Plugin 'airblade/vim-gitgutter'
+Plugin 'mkusher/padawan.vim'
+Plugin 'shawncplus/phpcomplete.vim'
+Plugin 'jiangmiao/auto-pairs'
+Plugin 'MattesGroeger/vim-bookmarks'
+
+call vundle#end()            " required
+filetype plugin indent on    " required
+
+" Apply colorscheme
+colorscheme solarized

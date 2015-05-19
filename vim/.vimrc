@@ -46,6 +46,9 @@ augroup CursorLine
     au WinLeave * setlocal nocursorline
 augroup END
 
+" Reload file on change
+set autoread
+
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => Colors and Fonts
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
